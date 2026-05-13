@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import Results from "./Results";
 import Meaning from "./Meaning";
+import Synonyms from "./Synonyms";
 import "./Dictionary.css";
 
 export default function Dictionary() {
