@@ -28,15 +28,17 @@ setResults(response.data[0]);
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
-        <input
-          type="text"
-          placeholder="Enter a word..."
-          onChange={handleKeywordChange}
+      <section>
+        <form onSubmit={search}>
+          <input
+            type="text"
+            placeholder="Enter a word..."
+            onChange={handleKeywordChange}
         />
 
         <button type="submit">Search</button>
       </form>
+      </section>
       <Results results={results} />
     </div>
   );
