@@ -1,4 +1,4 @@
--App.header{
+.header{
     text-align: center;
     margin-top: 5rem;
 }
@@ -11,3 +11,14 @@ a{
     color: #007bff;
     text-decoration: none;
 }   
+.App {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 14px;
+    color: #777;
+}
